@@ -11,6 +11,15 @@ $config = [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
+    'controllerMap' => [
+        'main' => [
+            'class' => 'app\controllers\site\MainController',
+            
+        ],
+        'blog' => [
+            'class' => 'app\controllers\site\BlogController'
+        ],
+    ],
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation

@@ -26,7 +26,8 @@ PublicAsset::register($this);
 <body >
 <?php $this->beginBody() ?>
 
-    <?php echo $this->render('@app/views/templates/header.php'); ?>
+    
+            <?= $this->render('@app/views/templates/header.php'); ?>
 
     <?= $content ?>
 
